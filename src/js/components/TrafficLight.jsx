@@ -21,7 +21,7 @@ const TrafficLight = () => {
             }
         }
 
-        // setInterval(cambiarColor, 3000);
+        setInterval(cambiarColor, 3000);
 
         return (
         <div className="align-items-center justify-content-center d-flex flex-column mx-auto mt-4 bg-dark" style={{width:"100px", height:"200px"}}>
